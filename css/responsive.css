@@ -1,9 +1,6 @@
 @media screen and (max-width:1159.98px) {
     .container{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        justify-content: center;
+        max-width: 100%;   
     }
 }
 @media screen and (max-width:767.98px) {
@@ -26,6 +23,16 @@
 
     .row .col:last-child{
         margin-bottom: 0px;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem 0;
     }
 
 }
